@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2> {{pie.name}} By {{users.first_name}}</h2>
+        <div class="box1">
+            <p> {{pie.filling}} and {{pie.crust}} </p>
+        </div>
+        <div class="box2">
+            <p>Cast a vote</p>
+            <form action="/vote/{{pie.id}}">
+                <button type="submit"> Delicious </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+.register {
+    height:300px;
+    width : 250px;
+    margin: auto;
+    background-color: #34393E;
+    color: antiquewhite;
+    padding : 20px;
+    overflow: scroll;
+}
+.register h3{
+    color : #057AFD; ;
+}
+.login h3 {
+    color : #28A644;
+}
+.login{
+    height: 250px;
+    margin: auto;
+    width: 250px;
+    background-color: #34393E;
+    color: antiquewhite;
+    padding : 20px;
+    overflow: scroll;
+}
+.container3 {
+    display: flex;
+}
+form{
+    margin: 5px;
+    width: 80%;
+}
+.flash {
+    background-color: #F8D6D9;
+    color: #A7666B;
+}
+.btn2{
+    background-color :#28A644;
+    margin-top: 6px;
+}
+.btn1{
+    background-color: #057AFD;
+    margin-top: 6px;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center
+}
+.box1{
+    height: auto;
+    width: auto;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+}
+table, td, th, tr{
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container4{
+    margin: auto;
+}
+.container{
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid black;
+}
+.container2{
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid black;
+}
+

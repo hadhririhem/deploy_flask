@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container4">
+        <h2>Pie Py Derby</h2>
+        <div class="box3">
+            <table>
+                <tr>
+                    <th>Pie Name</th>
+                    <th>PiePy By</th>
+                    <th>Votes </th>
+                </tr>
+                {%for p in pie.pies %}
+                <tr>
+                    <td><a href="/show/{{p.id}}"> {{ p.name }} </a></td>
+                    <td> {{pie.first_name}}</td>
+                    <td> {{p.votes}} </td>
+                </tr>
+                {%endfor%}
+            </table>
+        </div>
+       
+    </div>
+</body>
+</html>
